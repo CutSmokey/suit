@@ -1,0 +1,103 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+	<link rel="stylesheet" href="css/norm.css">
+	<link rel="stylesheet" href="css/main.css">	
+	<link rel="stylesheet" href="css/slider.css">
+	
+	
+	<title>Suit</title>
+</head>
+<body>
+	<div class="bar">
+		<nav id="desktop">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Our Service</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div id="burg">
+		<a href="#">
+			<span class"bar" id="top"></span>
+			<span class"bar" id="middle"></span>
+			<span class"bar" id="bottom"></span>
+		</a>
+	</div>
+	<div class="mobile-tab">
+		<nav id="mobile">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Our Service</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="sld">
+		<div class="owl-carousel owl-theme"> 
+			<div class="owl-slide"> 
+				<img src="img/1.jpg" alt="1" class="owl-slide__img"></img> 
+			</div> 
+			<div class="owl-slide"> 
+				<img src="img/2.jpg" alt="2" class="owl-slide__img"></img> 
+			</div> 
+			<div class="owl-slide"> 
+				<img src="img/3.jpg" alt="3" class="owl-slide__img"></img> 
+			</div>
+		</div>
+	</div>
+	<div id="btn-down">
+				<a href="#section-consult" class="button-down"> </a>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script src="js/script.js"></script>
+<script src="js/owl.carousel.js"></script>
+
+	<script>
+	$(document).ready(function(){
+		$('.carousel.carousel-slider').carousel({
+			fullWidth:true,
+			indicators:true,
+		})
+	})
+	</script>
+	<script>
+	$(document).ready(function() {
+	$('.owl-carousel').owlCarousel({
+		fullWidth:true,
+		indicators:true,
+		loop:true, //Зацикливаем слайдер
+		nav:true, //Отключил навигацию
+		autoplay:false, //Автозапуск слайдера
+		smartSpeed:1000, //Время движения слайда
+		autoplayTimeout:2000, //Время смены слайда
+		responsive:{ //Адаптация в зависимости от разрешения экрана
+			0:{
+				items:1
+			},
+			600:{
+				items:1
+			},
+			1000:{
+				items:1
+			}
+		}
+	});
+	});
+	</script>
+	
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
+
+.owl-slide__img {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+}
+
+.owl-slide__desc {
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	font-family: 'Tangerine', cursive;
+	font-size: 36px;
+}
